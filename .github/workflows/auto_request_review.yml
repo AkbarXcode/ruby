@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Request review based on files changes and/or groups the author belongs to
-        uses: necojackarc/auto-request-review@e08cdffa277d50854744de3f76230260e61c67f4 # v0.7.0, checking sha
+        uses: necojackarc/auto-request-review@5e897759f28dfd90d15f667cc42f59eb06e7c849 # v0.7.0, checking sha
         with:
           # scope: public_repo
           token: ${{ secrets.MATZBOT_GITHUB_TOKEN }}
